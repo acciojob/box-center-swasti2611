@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+div{
+width:200px;
+	height:200px;
+	background-color:lightblue;
+	 border-style: solid;
+  border-width:  thick;
+	height: 10em;
+    position: relative
+}
+p{
+	 margin: 0;
+    color:purple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
